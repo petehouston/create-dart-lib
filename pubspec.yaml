@@ -1,0 +1,26 @@
+name: create_dart_lib
+version: 1.0.0
+description: >-
+  An utility to generate a Dart library template
+
+author: Pete Houston <contact@petehouston.com>
+
+homepage: https://github.com/petehouston/create-dart-lib
+
+documentation: https://github.com/petehouston/create-dart-lib
+
+environment:
+  sdk: '>=1.19.0 <3.0.0'
+
+dependencies:
+  zip: 
+    git: git://github.com/kaisellgren/DartZip.git
+  archive: ^1.0.0
+
+dev_dependencies:
+  
+
+dependency_overrides:
+
+executables:
+  create-dart-lib: cli
